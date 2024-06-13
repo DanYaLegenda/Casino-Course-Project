@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="CasinoSimulation.View.UserPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CasinoSimulation.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1600">
+    <Grid Background="#FF130738">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="___menuback_png" Grid.ColumnSpan="6" Margin="0,-10,0,10" 
+               Grid.RowSpan="5" Source="/View/Images/Menu/menufinal.png" 
+               Stretch="Fill"/>
+
+        <Button x:Name="MenuButton" Content="Меню"
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Margin="10,10,0,0"  Grid.Column="1" Grid.Row="0"
+                Command="{Binding Menu}" Style="{StaticResource GameButton}"/>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Border Background="#000" Opacity="0.95" CornerRadius="25" Grid.RowSpan="10"
+                    />
+            <StackPanel Height="50" VerticalAlignment="Top" Orientation="Horizontal"
+                        Margin="10 50 10 0">
+                <Label Content="Логин:" Style="{StaticResource LabelFormat}" 
+                       HorizontalAlignment="Left"/>
+                <Label Content="{Binding UserLogin}" Style="{StaticResource LabelFormat}"
+                       HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </StackPanel>
+            <StackPanel Height="50" VerticalAlignment="Top" Orientation="Horizontal"
+                        Margin="10 0 10 0">
+                <Label Content="Id:" Style="{StaticResource LabelFormat}" 
+                       HorizontalAlignment="Left"/>
+                <Label Content="{Binding UserId}" Style="{StaticResource LabelFormat}"
+                       HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </StackPanel>
+            <StackPanel Height="50" VerticalAlignment="Top" Orientation="Horizontal"
+                        Margin="10 100 10 0">
+                <Label Content="Баланс:" Style="{StaticResource LabelFormat}" 
+                       HorizontalAlignment="Left"/>
+                <Label Content="{Binding UserBalance}" Style="{StaticResource LabelFormat}"
+                       HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

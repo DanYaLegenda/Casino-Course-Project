@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="10000_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\10000_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="10000_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\10000_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1000_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\1000_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1000_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\1000_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="100_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\100_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="100_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\100_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="10_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\10_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="10_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\10_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\1_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\1_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2000_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\2000_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2000_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\2000_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="250_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\250_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="250_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\250_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="25_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\25_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="25_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\25_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5000_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\5000_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5000_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\5000_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="500_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\500_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="500_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\500_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5_Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\5_flat.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="5_Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\chips\5_top.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ace_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ace_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ace_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ace_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ace_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ace_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ace_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ace_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BJbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\bjbackground.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardFan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\sounds\cardfan2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardPlace4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\sounds\cardplace4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardShuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\sounds\cardshuffle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Card_Back_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\card_back_blue.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chipsCollide1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\sounds\chipscollide1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eight_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\eight_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eight_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\eight_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eight_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\eight_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eight_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\eight_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Five_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\five_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Five_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\five_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Five_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\five_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Five_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\five_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Four_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\four_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Four_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\four_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Four_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\four_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Four_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\four_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Jack_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\jack_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Jack_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\jack_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Jack_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\jack_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Jack_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\jack_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="King_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\king_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="King_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\king_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="King_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\king_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="King_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\king_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Nine_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\nine_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nine_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\nine_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nine_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\nine_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nine_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\nine_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Queen_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\queen_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Queen_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\queen_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Queen_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\queen_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Queen_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\queen_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Seven_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\seven_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Seven_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\seven_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Seven_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\seven_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Seven_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\seven_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Six_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\six_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Six_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\six_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Six_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\six_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Six_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\six_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ten_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ten_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ten_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ten_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ten_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ten_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ten_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\ten_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Three_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\three_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Three_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\three_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Three_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\three_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Three_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\three_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Two_of_Clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\two_of_clubs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Two_of_Diamonds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\two_of_diamonds.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Two_of_Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\two_of_hearts.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Two_of_Spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\view\images\blackjack\cards\two_of_spades.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+</root>
